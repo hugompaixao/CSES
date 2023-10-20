@@ -59,3 +59,28 @@ int main() {
 
 	return 0;
 }
+
+
+
+#include <iostream>
+
+using namespace std;
+
+void print(int* a, int n) {
+	for (int i = 0; i < n; i++) {
+		cout << a[i] << " ";
+	}
+}
+
+int main() {
+	int n;
+	cin >> n;
+	if (n * (n + 1) / 2 % 2) {
+		cout << "NO";
+		return 0;
+	}
+	else {
+
+	}
+	return 0;
+}
